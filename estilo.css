@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: rgba(0, 0, 0, 0.84) ;
+    font-family: 'raleway';
+    text-align: center;
+    padding: 0%;
+    margin: 0px;
+    margin-top:100px;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    width: 40%;
+    background-color: #ca7900;
+    font-size: 20px;
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+}
+.header{
+    text-align: center;
+    color:white;
+    margin-top: 20px;
+}
+
+.card img{
+    margin-top: 40px;
+    width: 100px;
+}
+
+button{
+    padding: 5px 30px 5px 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #CA8500; 
+    border: 3px solid white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+.botoes{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
